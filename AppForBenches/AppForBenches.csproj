@@ -118,7 +118,8 @@
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\BenchmarkResults.cs" />
-    <Compile Include="Models\Game.cs" />
+    <Compile Include="Models\Devices.cs" />
+    <Compile Include="Models\Games.cs" />
     <Compile Include="Models\NameEquals.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -152,6 +153,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Options\HTMLPage1.html" />
     <Content Include="Options\NameChanger.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

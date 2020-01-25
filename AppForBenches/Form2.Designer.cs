@@ -70,6 +70,7 @@
             this.names_listBox.Name = "names_listBox";
             this.names_listBox.Size = new System.Drawing.Size(592, 173);
             this.names_listBox.TabIndex = 3;
+            this.names_listBox.SelectedIndexChanged += new System.EventHandler(this.Names_listBox_SelectedIndexChanged);
             // 
             // button1
             // 
@@ -79,6 +80,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "Изменить";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // label2
             // 

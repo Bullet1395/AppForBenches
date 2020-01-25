@@ -32,8 +32,8 @@
             this.менюToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.сохранитьВWordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AddBecnhamrksFile_toolTipMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.AddBenchmark_openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.заменитьНазванияИгрToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.AddBenchmark_openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.fileMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,8 +60,8 @@
             // сохранитьВWordToolStripMenuItem
             // 
             this.сохранитьВWordToolStripMenuItem.Name = "сохранитьВWordToolStripMenuItem";
-            this.сохранитьВWordToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
-            this.сохранитьВWordToolStripMenuItem.Text = "Сохранить в Word";
+            this.сохранитьВWordToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.сохранитьВWordToolStripMenuItem.Text = "Сохранить в Excel";
             this.сохранитьВWordToolStripMenuItem.Click += new System.EventHandler(this.СохранитьВWordToolStripMenuItem_Click);
             // 
             // AddBecnhamrksFile_toolTipMenu
@@ -71,16 +71,16 @@
             this.AddBecnhamrksFile_toolTipMenu.Text = "Добавить файл Benchmarks";
             this.AddBecnhamrksFile_toolTipMenu.Click += new System.EventHandler(this.AddBecnhamrksFile_toolTipMenu_Click);
             // 
-            // AddBenchmark_openFileDialog
-            // 
-            this.AddBenchmark_openFileDialog.FileName = "openFileDialog1";
-            // 
             // заменитьНазванияИгрToolStripMenuItem
             // 
             this.заменитьНазванияИгрToolStripMenuItem.Name = "заменитьНазванияИгрToolStripMenuItem";
             this.заменитьНазванияИгрToolStripMenuItem.Size = new System.Drawing.Size(147, 20);
             this.заменитьНазванияИгрToolStripMenuItem.Text = "Заменить названия игр";
             this.заменитьНазванияИгрToolStripMenuItem.Click += new System.EventHandler(this.ЗаменитьНазванияИгрToolStripMenuItem_Click);
+            // 
+            // AddBenchmark_openFileDialog
+            // 
+            this.AddBenchmark_openFileDialog.FileName = "openFileDialog1";
             // 
             // Form1
             // 
